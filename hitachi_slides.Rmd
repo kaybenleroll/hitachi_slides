@@ -1,5 +1,5 @@
 ---
-title: "Some Random Slides"
+title: "Collaboration and Opportunities"
 subtitle: "Hitachi Consulting"
 author: "Mick Cooney <mickcooney@gmail.com>"
 date: "2017-09-13"
@@ -189,4 +189,23 @@ ggplot(lapse_curves_tbl) +
 ### Insurance Pricing Assessment
 
 ![](img/insurance_pricing_assessment.png)
+
+---
+
+### Opportunities
+
+
+\
+
+
+![](img/rsa_logo.png)
+![](img/mercer_logo.png)
+![](img/aig_logo.png)
+
+![](img/hiscox_logo.png)
+![](img/mibi_logo.png)
+![](img/argo_logo.png)
+
+
+
 
