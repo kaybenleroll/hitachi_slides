@@ -37,7 +37,7 @@ set.seed(42)
 
 ---
 
-### Option Trading
+#### Option Trading
 
 ```{r calculating_fund_navs, echo=FALSE}
 fundnav_tbl <- read_csv('data/fundnav_values.csv', col_types = cols()) %>%
@@ -53,13 +53,13 @@ ggplot(fundnav_tbl) +
 
 ---
 
-### Quant Finance
+#### Quant Finance
 
 ![](img/manufacturehedge_pdf_plot.png)
 
 ---
 
-### Probabilistic Graphical Models
+#### Probabilistic Graphical Models
 
 ```{r pgm_underwriting_fraud, echo=FALSE}
 hn <- cptable(~HN
@@ -167,7 +167,7 @@ plot(underwriting_grain)
 
 ---
 
-### Lapse Modelling
+#### Lapse Modelling
 
 ```{r show_lapse_modelling, echo=FALSE}
 lapse_curves_tbl <- read_csv('data/lapse_curves.csv', col_types = cols()) %>%
@@ -186,7 +186,7 @@ ggplot(lapse_curves_tbl) +
 
 ---
 
-### Insurance Pricing Assessment
+#### Insurance Pricing Assessment
 
 ![](img/insurance_pricing_assessment.png)
 
