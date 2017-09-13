@@ -33,7 +33,7 @@ options(width = 80L
 set.seed(42)
 ```
 
-# Topics
+# Sample of Previous Work
 
 ---
 
@@ -41,7 +41,7 @@ set.seed(42)
 
 ```{r calculating_fund_navs, echo=FALSE}
 fundnav_tbl <- read_csv('data/fundnav_values.csv', col_types = cols()) %>%
-    filter(fundlabel %in% c('TAIL10', 'COVERCALL','PROTECTPUT'))
+    filter(fundlabel %in% c('BUYHOLD','TAIL10', 'COVERCALL','PROTECTPUT'))
 
 ggplot(fundnav_tbl) +
     geom_line(aes(x = date, y = nav, colour = fundlabel)) +
